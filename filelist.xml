@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Vannila Weapon Tweak" modversion="1.0.0" corepackage="False" gameversion="0.20.16.1">
+  <Item file="%ModDir%/WeaponRebalance.xml" />
+  <Item file="%ModDir%/captain_talent_items.xml" />
+  <Item file="%ModDir%/securityofficer_talent_items.xml" />
+</contentpackage>
