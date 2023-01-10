@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="SAS4 Barotrauma Mod" modversion="1.0.0" corepackage="False" gameversion="0.20.16.1">
+  <Item file="%ModDir%/SAS4Weapons.xml" />
 </contentpackage>
