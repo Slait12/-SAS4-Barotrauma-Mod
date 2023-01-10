@@ -34,12 +34,6 @@
       <Sound file="Content/Items/Weapons/WEAPON_rifleShot2.ogg" type="OnUse" range="3000" />
       <Sound file="Content/Items/Weapons/WEAPON_rifleShot3.ogg" type="OnUse" range="3000" />
       <StatusEffect type="OnUse">
-        <RequiredItem items="grenade" type="Contained" targetslot="1" />
-        <Sound file="Content/Items/Weapons/WEAPON_rifleGrenadeShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-        <Sound file="Content/Items/Weapons/WEAPON_rifleGrenadeShot2.ogg" type="OnUse" range="3000" />
-        <Sound file="Content/Items/Weapons/WEAPON_rifleGrenadeShot3.ogg" type="OnUse" range="3000" />
-      </StatusEffect>
-      <StatusEffect type="OnUse">
         <Explosion range="150.0" force="2.0" shockwave="false" smoke="false" flash="true" sparks="false" flames="false" underwaterbubble="false" camerashake="2.0" />
       </StatusEffect>
       <!-- Cocking sound, delayed by varied seconds. -->
@@ -80,7 +74,7 @@
     </Quality>
   </Item>
 
-  <Item name="" identifier="riflebullet" category="Weapon" maxstacksize="12" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,rifleammo,riflemanbonus" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="Cryptoniumbullet" category="Weapon" maxstacksize="12" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,rifleammo,riflemanbonus" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="rifle" amount="6" spawnprobability="1"/>
     <PreferredContainer primary="armcab" minamount="6" maxamount="12" spawnprobability="1" notcampaign="true"/>
     <PreferredContainer secondary="outpostsecarmcab" minamount="1" maxamount="6" spawnprobability="0.5"/>
