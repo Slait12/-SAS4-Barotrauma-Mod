@@ -1,4 +1,4 @@
-<Item name="Criptonium bullet" identifier="CriptoniumBullet" category="Weapon" maxstacksize="12" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,rifleammo,riflemanbonus" Scale="0.5" impactsoundtag="impact_metal_light">
+<Item name="Criptonium bullet" identifier="CriptoniumBullet" category="Weapon" maxstacksize="12" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,rifleammo,riflemanbonus" Scale="0.1" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="armcab" minamount="6" maxamount="12" spawnprobability="1" notcampaign="true"/>
     <PreferredContainer secondary="outpostsecarmcab" minamount="1" maxamount="6" spawnprobability="0.5"/>
     <PreferredContainer secondary="wreckarmcab,wrecksecarmcab,abandonedarmcab,abandonedsecarmcab" minamount="1" maxamount="3" spawnprobability="0.2"/>
@@ -17,8 +17,8 @@
       <RequiredItem identifier="lead" amount="2" />
       <RequiredItem identifier="plastic" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Textures/SAS4Ammo.png" sourcerect="829,800,120,270" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Textures/SAS4Ammo.png" sourcerect="829,800,120,270" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Textures/SAS4Ammo.png" sourcerect="829,800,140,300" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/SAS4Ammo.png" sourcerect="829,800,140,300" depth="0.55" origin="0.5,0.5" />
     <Body width="23" height="9" density="40" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
     <Projectile characterusable="false" hitscan="true" removeonhit="true">
