@@ -19,7 +19,7 @@
     </Fabricate>
     <InventoryIcon texture="%ModDir%/Textures/SAS4Ammo.png" sourcerect="829,800,200,300" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Textures/SAS4Ammo.png" sourcerect="829,800,200,300" depth="0.55" origin="0.5,0.5" />
-    <Body width="0" height="0" density="40" />
+    <Body width="30" height="300" density="40" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
     <Projectile characterusable="false" hitscan="true" removeonhit="true">
       <ParticleEmitter particle="tracerfirearm" particleamount="3" velocitymin="0" velocitymax="0" colormultiplier="0,0,275,175" scalemultiplier="1,0.8" />
