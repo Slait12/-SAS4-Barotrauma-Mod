@@ -51,7 +51,7 @@
       <RequiredItems items="rifleammo" type="Contained" msg="ItemMsgAmmoRequired" />
       <RequiredSkill identifier="weapons" level="60" />
     </RangedWeapon>  
-    <ItemContainer capacity="1" maxstacksize="6" hideitems="true" containedstateindicatorslot="2" containedspritedepth="0.56">
+    <ItemContainer capacity="1" maxstacksize="6" hideitems="true" containedstateindicatorslot="1" containedspritedepth="0.56">
       <Containable items="rifleammo" hide="false" />
       <SlotIcon slotindex="0" texture="Content/UI/ContainerIndicators.png" sourcerect="4,216,75,35" origin="0.5,0.5" />
       <SlotIcon slotindex="1" texture="Content/UI/ContainerIndicators.png" sourcerect="1,62,120,29" origin="0.5,0.5" />
